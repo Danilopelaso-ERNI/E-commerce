@@ -9,6 +9,7 @@ namespace E_commerce.DatabaseContext
         public DbSet<Item> Items { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<CustomerProfile> CustomerProfiles { get; set; } 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,9 +19,9 @@ namespace E_commerce.DatabaseContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customer>()
-                .HasOne(c => c.LatestOrder)
-                .WithOne()
-                .HasForeignKey<Order>(o => o.CustomerId);
+                .HasOne(c => c.Profile) 
+                .WithOne(cp => cp.Customer)
+                .HasForeignKey<CustomerProfile>(cp => cp.CustomerId);
 
             modelBuilder.Entity<Customer>()
                 .HasMany(c => c.Orders)

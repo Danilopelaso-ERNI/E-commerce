@@ -12,7 +12,7 @@ namespace E_commerce.Entities
         public string Name { get; set; }
         public string Email { get; set; }
 
-        public virtual Order LatestOrder { get; set; }
+        public virtual CustomerProfile Profile { get; set; }
 
         public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
     }

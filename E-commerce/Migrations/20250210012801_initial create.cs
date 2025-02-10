@@ -4,10 +4,8 @@
 
 namespace E_commerce.Migrations
 {
-    /// <inheritdoc />
     public partial class Initialcreate : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropIndex(
@@ -40,7 +38,6 @@ namespace E_commerce.Migrations
                 principalColumn: "Id");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(

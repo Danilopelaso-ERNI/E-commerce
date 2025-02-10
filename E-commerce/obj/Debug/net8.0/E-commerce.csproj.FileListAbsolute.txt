@@ -170,3 +170,4 @@ C:\Users\extpeda\source\repos\E-commerce\E-commerce\bin\Debug\net8.0\runtimes\wi
 C:\Users\extpeda\source\repos\E-commerce\E-commerce\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\extpeda\source\repos\E-commerce\E-commerce\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\extpeda\source\repos\E-commerce\E-commerce\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\extpeda\source\repos\E-commerce\E-commerce\obj\Debug\net8.0\E-commerce.sourcelink.json
