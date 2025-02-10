@@ -26,7 +26,7 @@ namespace E_commerce
                 context.Customers.AddRange(customers);
                 context.SaveChanges(); 
 
-              
+              //wala lang hahhhsahsahhhsahs
                 List<Item> items = new List<Item>()
                 {
                     new Item { Name = "Dell Laptop", Price = "2342344", Quantity = 12 },
